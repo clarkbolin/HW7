@@ -1,0 +1,101 @@
+{
+    "json" [
+        {
+            "Artist": "Luke Combs",
+            "Title": "Doin' This",
+            "Genre": [
+                "Country"
+            ],
+            "Released": 2022
+        },
+        {
+            "Artist": "Luke Combs",
+            "Title": "When it Rains it Pours",
+            "Genre": [
+                "Country"
+            ],
+            "Released": 2017
+        },
+        {
+            "Artist": "Luke Combs",
+            "Title": "Refrigerator Door",
+            "Genre": [
+                "Country"
+            ],
+            "Released": 2019
+        },
+        {
+            "Artist": "Jon Pardi",
+            "Title": "Last Night Lonely",
+            "Genre": [
+                "Country"
+            ],
+            "Released": 2022,
+        },
+        {
+            "Artist": "Jon Pardi",
+            "Title": "Heartache on the Dance Floor",
+            "Genre": [
+                "Country"
+            ],
+            "Released": 2016
+        },
+        {
+            "Artist": "Jon Pardi",
+            "Title": "Dirt on my Boots",
+            "Genre": [
+                "Country"
+            ],
+            "Released": 2016
+        },
+        {
+            "Artist": "Chris Stapleton",
+            "Title": "Tennessee Whiskey",
+            "Genre": [
+                "Country"
+            ],
+            "Released": 2015
+        },
+        {
+            "Artist": "Chris Stapleton",
+            "Title": "Broken Halos",
+            "Genre": [
+                "Country"
+            ],
+            "Released": 2017
+        },
+        {
+            "Artist": "Chris Stapleton",
+            "Title": "You Should Probably Leave",
+            "Genre": [
+                "Country"
+            ],
+            "Released": 2020
+        },
+        {
+            "Artist": "Flume (feat. T-Shirt)",
+            "Title": "On Top",
+            "Genre": [
+                "EDM",
+                "Rock"
+            ],
+            "Released": 2012
+        },
+        {
+            "Artist": "Jay-Z",
+            "Title": "Run This Town",
+            "Genre": [
+                "Rap"
+            ],
+            "Released": 2009
+        },
+        {
+            "Artist": "Lil Tjay",
+            "Title": "In My Head",
+            "Genre": [
+                "Rap"
+            ],
+            "Released": 2022
+        }
+    ]
+}
