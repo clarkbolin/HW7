@@ -1,5 +1,4 @@
-{
-    "json" [
+[
         {
             "Artist": "Luke Combs",
             "Title": "Doin' This",
@@ -98,4 +97,3 @@
             "Released": 2022
         }
     ]
-}
