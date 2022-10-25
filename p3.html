@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>HW7 JSON Song List</title>
+    <script type="text/javascript" src="data.json"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <style type="text/css">
+        body,
+        html {
+            font-size: 30px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table id='table'>
+
+        <tr>
+            <th>Artist</th>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Release Date</th>
+        </tr>
+
+        <script>
+
+            // part 3
+            $(document).ready(function () {
+
+                // getting data from json file
+                $.get("https://clarkbolin.github.io/HW7/data.json",
+                    function (data) {
+                        var song = '';
+
+                        // iterate through the song objects in the json
+                        $.each(data, function (key, value) {
+
+                            // creating rows with values from the song objects
+                            song += '<tr>';
+                            song += '<td>' +
+                                value.Artist + '</td>';
+
+                            song += '<td>' +
+                                value.Title + '</td>';
+
+                            song += '<td>' +
+                                value.Genre + '</td>';
+
+                            song += '<td>' +
+                                value.Released + '</td>';
+
+                            song += '</tr>';
+                        });
+
+                        // add the rows into the table, making it into a user
+                        // friendly display
+                        $('#table').append(song);
+                    });
+            });
+        </script>
+</body>
+
+</html>

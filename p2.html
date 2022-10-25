@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>HW7 JSON Song List</title>
+    <script type="text/javascript" src="data.json"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <style type="text/css">
+        body,
+        html {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // raw string format (part 2)
+        $.get("https://clarkbolin.github.io/HW7/data.json",
+            function (data) {
+                str = JSON.stringify(data);
+                document.write(str);
+            })
+    </script>
+
+    
+</body>
+
+</html>
